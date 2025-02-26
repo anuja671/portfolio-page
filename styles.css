@@ -1,0 +1,65 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero .text-highlight {
+    color: #00aaff;
+}
+
+.about img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.projects {
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.project-box {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+}
+
+.project-box i {
+    color: #00aaff;
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #1a1a1a;
+    padding: 50px 0;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh;
+    }
+    
+    .project-box {
+        margin-bottom: 15px;
+    }
+}
